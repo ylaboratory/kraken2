@@ -16,3 +16,13 @@ complement when building the database.
 
 To get started, clone the `no_rev_comp` branch and run the `install_kraken2.sh`
 script.
+
+```sh
+bash install_kraken2.sh $path_to_install_dir
+```
+
+After installation copy the relevant executables into `/usr/bin`
+
+```sh
+cp $path_to_install_dir/kraken2{,-build,-inspect} $HOME/bin
+```
