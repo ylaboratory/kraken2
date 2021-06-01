@@ -214,8 +214,9 @@ uint64_t MinimizerScanner::reverse_complement(uint64_t kmer, uint8_t n) {
 }
 
 uint64_t MinimizerScanner::canonical_representation(uint64_t kmer, uint8_t n) {
-  uint64_t revcom = reverse_complement(kmer, n);
-  return kmer < revcom ? kmer : revcom;
+  //uint64_t revcom = reverse_complement(kmer, n);
+  //return kmer < revcom ? kmer : revcom;
+  return kmer;
 }
 
 } // end namespace

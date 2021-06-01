@@ -8,3 +8,11 @@ The second version of the Kraken taxonomic sequence classification system
 
 Please refer to the Operating Manual (in docs/MANUAL.html) for details on
 how to use Kraken 2.
+
+## Modifications
+
+This version of kraken2 is forked to allow suppression of the reverse
+complement when building the database.
+
+To get started, clone the `no_rev_comp` branch and run the `install_kraken2.sh`
+script.
